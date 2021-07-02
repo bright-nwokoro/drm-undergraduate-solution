@@ -1,0 +1,18 @@
+{% extends 'drm_site/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <div style="min-height: 100vh">
+        <div class="card mx-auto my-5" style="width: 25rem;">
+            <img src="{% static '/images/testimg.jpg' %}" class="card-img-top" alt="test_image" style="pointer-events: none;">
+            <div class="card-body">
+            <h5 class="card-title">Image Download</h5>
+            <p class="card-text">Download of image has being disabled</p>
+            </div>
+        </div>
+    </div>
+    
+{% endblock content %}
+    

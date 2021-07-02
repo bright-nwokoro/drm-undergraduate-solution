@@ -1,0 +1,16 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.navbar-color{
+    background-color: #8FB399;
+}
+
+.btn{
+    background-color: #B3A1A1;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+    
+}

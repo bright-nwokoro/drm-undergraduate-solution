@@ -1,0 +1,4 @@
+venv/
+datadump.json
+db.sqlite3
+*log

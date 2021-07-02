@@ -1,0 +1,29 @@
+{% extends 'drm_site/main.html' %}
+
+{% load static %}
+
+
+{% block content %}
+    
+<div class="card my-5 mx-auto shadow" >
+    <div class="card-body">
+      <h5 class="card-title">ENHACING CONTENT PRIVACY IN SOCIAL NETWORK USING DIGITAL RIGHT MANAGEMENT</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Topic</h6>
+      <p class="card-text py-3">The aim of this project is to demonstrate how digital copyrighted content can be protected in a social media network </p>
+      <p> This solution would be make use of Three (3) approach in securing copyrighted content
+          <br>1. Identify if uploaded content is copyrighted
+          <br>The first thing social media network should enforce is to identify if any content being uploaded is copyrighted.
+          <br>This solution would provide such features. This would be achieved through reading images, documents metadata.
+          <br>
+          <br>2. Preventing content from being downloaded or copied
+          <br>Social media networks are designed to display content from users. 
+          <br>In the case a copyrighted file is being displayed, such is not allowded to downloaded.
+      </p>
+      <a class="btn" href='{% url 'upload' %}'>Upload File</a>
+      <a class="btn" href='{% url 'no_download_image' %}'>Do Not Download</a>
+      <a class="btn" href='{% url 'no_download_text' %}'>Do Not Copy Text</a>
+    </div>
+  </div>
+
+{% endblock content %}
+    
