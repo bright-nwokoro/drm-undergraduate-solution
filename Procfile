@@ -1,1 +1,1 @@
-web: gunicorn betremit.wsgi --log-file -
+web: gunicorn drm_system.wsgi --log-file -
