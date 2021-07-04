@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q)9@@n7u&x+$$r_)c#d80v0eogkd+uylla0(*-l0u96#%_q+xm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['drm-undergraduate-solution.herokuapp.com', '127.0.0.1']
 
@@ -155,3 +155,8 @@ LOGGING = {
 }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+# when debug is set to True
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
