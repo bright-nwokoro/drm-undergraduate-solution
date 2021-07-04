@@ -1,1 +1,1 @@
-web: gunicorn drm_systen.wsgi
+web: gunicorn drm_systen.wsgi --log-file -
