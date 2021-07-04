@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drm_systen.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drm_systen.drm_systen.settings')
 
 application = get_asgi_application()
