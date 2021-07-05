@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'drm_site.apps.DrmSiteConfig',
     'crispy_forms',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
