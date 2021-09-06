@@ -4,10 +4,12 @@
 {% block content %}
 
   <div>
-    <img src="{% static '/images/tiger.jpg' %}" alt="no_copyright_tiger.jpg">
+    <img src="{% static '/images/tiger.jpg' %}" class="card-img-top" alt="no_copyright_tiger.jpg" style="pointer-events: none;">
+    <!-- <img src="{% static '/images/tiger.jpg' %}" alt="no_copyright_tiger.jpg"> -->
     <h6>This image is not copyrighted</h6>
 
-    <img src="{% static '/images/tiger.jpg' %}" alt="copyright_tiger.jpg">
+    <img src="{% static '/images/tiger.jpg' %}" class="card-img-top" alt="copyright_tiger.jpg" style="pointer-events: none;">
+    <!-- <img src="{% static '/images/tiger.jpg' %}" alt="copyright_tiger.jpg"> -->
     <h6>This image is copyrighted/h6>
   </div>
 <!-- <form method="post" enctype="multipart/form-data" class="text-center my-3">
